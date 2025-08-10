@@ -16,12 +16,14 @@ Neste módulo, o projeto consistiu em automatizar o processamento de imagens que
 
 As imagens originais são obtidas da pasta `images`, e o script foi executado em um ambiente virtual (`.venv`).
 
-*_Note: as pastas mencionadas (`images` e `/opt/icons`) não estão incluídas nesse repositório; a primeira por motivos de otimização e a segunda por motivos de especificidade do sistema operacional_
+*_Note: as pastas mencionadas (`images` e `/opt/icons`) não estão incluídas nesse repositório; a primeira por motivos de otimização e a segunda por motivos de especificidade do sistema operacional (SO)._
 
 ### Melhorias para implementar:
 
-- [ ] Padronização e estilo: Ajustar nomenclatura de variáveis e funções para o padrão da PEP 8.
-- [ ] Docstrings: Adicionar docstrings em funções e no módulo.
 - [ ] Tratamento de exceções: Implementar blocos `try-except` para lidar com possíveis erros.
+
 - [ ] Refatoração: Usar `zip` para iterar sobre nomes de arquivos e imagens simultaneamente, eliminando a dependência de índices.
 
+- [ ] Padronização e estilo: Ajustar nomenclatura de variáveis e funções para o padrão da PEP 8.
+
+- [ ] Docstrings: Adicionar docstrings em funções e no módulo.
