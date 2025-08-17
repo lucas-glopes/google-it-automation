@@ -40,7 +40,8 @@ _*Note: a pasta mencionada (`/data/feedback`) não está incluída nesse reposit
 
 ### Melhorias para implementar:
 
-* [ ] Tratamento de exceções: Implementar blocos `try-except` para lidar com erros ao ler arquivos e falhas nas requisições HTTP.  
+- [ ] Tratamento de exceções: Implementar blocos `try-except` para lidar com erros ao ler arquivos e falhas nas requisições HTTP.  
+
 - [ ] Refatoração: Modularizar o código criando funções para processar tarefas específicas.  
 
 - [ ] Docstrings: Adicionar docstrings em funções e no módulo.
@@ -65,14 +66,14 @@ _*Note: O arquivo `cars.pdf` é salvo na pasta temporária (`/tmp`, específica 
 
 ### Melhorias para implementar:
 
-* [ ] Otimização: Otimizar a busca pelo ano mais popular para obter o valor diretamente do dicionário de contagem, evitando um loop extra.
+- [ ] Otimização: Otimizar a busca pelo ano mais popular para obter o valor diretamente do dicionário de contagem, evitando um loop extra.
 
-* [ ] Documentação: Adicionar comentários para explicar as seções de código que foram adicionadas.
+- [ ] Documentação: Adicionar comentários para explicar as seções de código que foram adicionadas.
 
 ### Desafio Extra:
 
 Como desafios opcionais, o projeto sugere as seguintes funcionalidades:
 
-* [ ] Ordenar a lista de carros no relatório PDF por total de vendas.
+- [ ] Ordenar a lista de carros no relatório PDF por total de vendas.
 
-* [ ] Criar um gráfico de pizza para mostrar o total de vendas de cada marca de carro.
+- [ ] Criar um gráfico de pizza para mostrar o total de vendas de cada marca de carro.
